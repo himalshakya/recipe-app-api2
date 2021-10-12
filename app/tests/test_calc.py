@@ -1,11 +1,9 @@
 import pytest
 from app import calc
 
-def test_example():
+def test_add_numbers():
   assert calc.add(10,20) == 30
-  # assert 1 == 1
 
-# @pytest.mark.slow
-# def test_example_another():
-#   # assert calc.add(10,20) == 30
-#   assert 1 == 1
+
+def test_subtract_numbers():
+  assert calc.subtract(20, 10) == 10
