@@ -5,5 +5,4 @@ exclude =
     __pycache__,
     manage.py,
     settings.py,
-    venv,
-    core/admin.py
+    venv
